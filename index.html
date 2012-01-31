@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>John Walley</title>
+    <meta name="description" content="">
+    <meta name="author" content="John Walley">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet/less" type="text/css" href="less/bootstrap.less">
+    <script src="js/less-1.2.1.min.js" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>    
+    <script type="text/javascript" src="js/captify.tiny.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $('img.captify').captify({
+          // 'fade' or 'slide'
+          animation: 'always-on',	  	
+          // the name of the CSS class to apply to the caption box
+          className: 'caption',
+          // position of the caption (top or bottom)
+          position: 'bottom',
+          // caption span % of the image
+          spanWidth: '100%'          
+        });
+      });
+    </script>    
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+      
+      /* caption styling */
+
+      .caption {
+        color: #ffffff;
+
+        padding: 0.6em;
+        font-weight: bold;
+        font-size: 32px;
+        font-family: arial;
+        display: none;
+        cursor: default;
+
+        /* background / transparency */
+        background: #000000;
+        opacity: 0.7;
+        filter: alpha(opacity=70);
+        -moz-opacity: 0.7;
+        -khtml-opacity: 0.7;
+      }
+
+      .caption a {
+        border: 0 none;
+        text-decoration: none;
+        background: #000000;
+        padding: 0.3em;
+      }
+
+      .caption a:hover {
+        background: #202020;
+      }
+
+      .caption-wrapper {
+        float: left;
+      }
+
+      br.c { clear: both; }      
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    
+    <div class="container">
+    
+      <ul class="media-grid">
+        <li>
+          <a href="business/">
+            <img src="images/business.png" class="captify" alt="Business">
+          </a>
+        </li>
+        <li>
+          <a href="code/">
+            <img src="images/code.png" class="captify" alt="Code">
+          </a>
+        </li>
+        <li>
+          <a href="personal/">
+            <img src="images/personal.png" class="captify" alt="Personal">
+          </a>
+        </li>        
+      </ul>
+      
+      <footer>
+        <p>&copy; John Walley 2012</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>

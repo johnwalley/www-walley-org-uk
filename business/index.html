@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Software Solutions, from John Walley</title>
+    <meta name="description" content="">
+    <meta name="author" content="John Walley">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet/less" type="text/css" href="../less/bootstrap.less">
+    <script src="../js/less-1.2.1.min.js" type="text/javascript"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+      section {
+        padding-top: 60px;
+      }
+      section > .row {
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    
+    <div class="topbar-wrapper" style="z-index: 5;">
+      <div class="topbar" data-dropdown="dropdown" >
+        <div class="topbar-inner">
+          <div class="container">
+            <h3><a href="#">John Walley</a></h3>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#bio">Bio</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="mailto:consulting@walley.org.uk">Contact</a></li>              
+              <li><a href="assets/john_walley_cv.pdf">CV</a></li>           
+              <li class="dropdown">
+                <a href="#services" class="dropdown-toggle">Services</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#production">Ideas To Production</a></li>
+                  <li><a href="#hpc">High Performance Computing</a></li>
+                  <li><a href="#app_development">Application Development and Software Integration</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav secondary-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">My Other Websites</a>
+                <ul class="dropdown-menu">
+                  <li><a href="../code/">Code</a></li>
+                  <li><a href="../personal/">Personal</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /topbar-inner -->
+      </div><!-- /topbar -->
+    </div><!-- /topbar-wrapper -->
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Ideas</h1>
+        <p>Into</p>
+        <h1>Solutions</h1>
+        <p><a class="btn primary large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <h2>Reduce Time to Market</h2>
+          <p>Whether you're a hedge fund, investment bank or asset manager. The time it takes to go from idea to product is critical.</p>
+          <p>See how you can take research and development into production using industry best-practices and minimal recoding.</p>
+          <p><a class="btn" href="#production">Learn more &raquo;</a></p>
+        </div>
+        <div class="span5">
+          <h2>Go Faster</h2>
+          <p>Accelerate your number crunching, analytics and reporting.</p>
+          <p>Break down computational bottlenecks through exploiting parallel hardware such as GPUs.</p>
+          <p><a class="btn" href="#hpc">Learn more &raquo;</a></p>
+       </div>
+        <div class="span5">
+          <h2>Work Together</h2>  
+          <p>Make MATLAB work as reliable part of your IT and software ecosystem.</p>
+          <p>From Excel Add-Ins to re-usable Java/.NET components, make your numerics fit into your existing infrastructure.</p>
+          <p><a class="btn" href="#app_development">Learn more &raquo;</a></p>
+        </div>
+      </div> 
+
+      <!--Biography
+      ================================================== -->
+      <section id="bio">
+        <div class="page-header">
+          <h1>Bio <small>A brief history of... me!</small></h1>
+        </div>
+        <div class="row">
+          <div class="span-one-third">
+            <h3>Customer Facing Hacker</h3>
+            <p>I'm a freelance software developer based in Cambridge. My focus is on MATLAB based solutions for clients in the finance industry.</p>
+            <p>Most recently, working for a large asset management firm, I was responsible for taking quant research into production.</p>
+            <p>Prior to this I worked at MathWorks in a customer-facing engineering role. Working with a wide variety of customers and specialising in parallel computing applications and software integration.</p>
+            <p>After completing my studies I joined the aerospace and defence industry where I contributed to a wide variety of exciting projects.</p>
+            <p>Find out more about my software projects at <a href="../code">johnwalley.github.com &rsaquo;</a></p>
+          </div>
+          <div class="span-one-third">
+            <h3>Academic Background</h3>
+            <p>My academic background is as a mathematician. I graduated from Oxford University in 2003 with a MSc in Mathematical Modelling and Scientific Computing. Modules studied included:</p>
+            <ul>
+              <li>Mathematical modelling</li>
+              <li>Numerical optimisation</li>
+              <li>Distributed computing for computational finance</li>
+              <li>Numerical linear algebra</li>
+            </ul>
+            <p>My dissertation explored the numerical solution of magnetic fluid flow and made heavy use of MATLAB and Fortran.</p>
+            <p>As an undergraduate I studied Mathematics at Cambridge University. There I was able to indulge my passion for applied maths and theoretical physics.</p>
+          </div>
+          <div class="span-one-third">
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="images/me_banner.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->
+      </section>
+      
+      <!-- Skills
+      ================================================== -->
+      <section id="skills">
+        <div class="page-header">
+          <h1>Skills <small>Where experience, talent and enthusiasm intersect</small></h1>
+        </div>
+        <!-- Table structure -->
+        <div class="row">
+          <div class="span8">
+            <h2>MATLAB Expert</h2>
+            <p>I have been using MATLAB since my days at university. Three of those years were working as part of the application engineering team at MathWorks. I've seen how MATLAB can be used from both sides of the fence and across a multitude of industries and application areas.</p>            
+          </div>
+          <div class="span4">
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="images/matlab.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->
+        
+        <div class="row">
+          <div class="span8">
+            <h2>High Performance Computing</h2>
+            <p>Do more, or do the same in less time - the choice is yours.</p>            
+          </div>
+          <div class="span4">
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="images/gpu_perf.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->       
+
+        <div class="row">
+          <div class="span8">
+            <h2>Effective Communication</h2>
+            <p>I believe there is a place for simple and effective communication in any project.</p>            
+          </div>
+          <div class="span4">
+          </div>
+        </div><!-- /row -->   
+        
+        <div class="row">
+          <div class="span8">
+            <h2>Software Development</h2>
+            <p>Broad experience with a variety of programming languages and environments.</p>            
+          </div>
+          <div class="span4">
+          </div>
+        </div><!-- /row -->   
+
+        <div class="row">
+          <div class="span8">
+            <h2>Mathematical Background</h2>
+            <p>My academic background is as a mathematician. I graduated from Oxford University in 2003 with a MSc in Mathematical Modelling and Scientific Computing. Modules studied included:</p>
+            <ul>
+              <li>Mathematical modelling</li>
+              <li>Numerical optimisation</li>
+              <li>Distributed computing for computational finance</li>
+              <li>Numerical linear algebra</li>
+            </ul>
+            <p>My dissertation explored the numerical solution of magnetic fluid flow and made heavy use of MATLAB and Fortran.</p>
+            <p>As an undergraduate I studied Mathematics at Cambridge University. There I was able to indulge my passion for applied maths and theoretical physics.</p>       
+          </div>
+          <div class="span4">
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="images/cambridge.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->       
+
+        <div class="row">
+          <div class="span8">
+            <h2>Finance Industry Experience</h2>
+            <p>I have worked for a large asset management firm. I was responsible for taking quant research into production.</p>
+            <p>Prior to this I worked at MathWorks in a customer-facing engineering role. Working with a wide variety of customers. These included investment banks, hedge funds, and other financial services businesses.</p>  
+          </div>
+          <div class="span4">
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="images/the-city.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->   
+      </section>
+      
+     <!-- Services
+      ================================================== -->
+      <section id="services">
+        <div class="page-header">
+          <h1>Services <small></small></h1>
+        </div>
+        <!-- Table structure -->
+        <div id="production" class="row">
+          <div class="span4">
+            <h2>Ideas to Production</h2>
+            <p>Go from novel idea to full implementation in days not months</p>            
+          </div>
+          <div class="span12">
+            <h3>Communicate in a Common Language</h3>
+            <p>Widely used by quants and analyists for its power to explore ideas and quickly build up models. See how you avoid reimplementing in C++/Java/C#.</p>
+            <p>Keep core analytics and models as reusable MATLAB code. Deploy as standalone applications or integrate with other environments where appropriate.</p>
+            <h3>Real World Data</h3>
+            <p>In the real world data comes from multiple sources, each with its own format, is often incomplete and occasionally is plain wrong. Chances are your research and development code will fall over the moment it encounters an actual piece of data.</p>
+            <h3>Industry Standard Development Practices</h3>
+            <p>Apply proven productivity boosting techniques to the solutions your MATLAB users produce. This requires judgement and experience because you and your team want to keep the speed of development MATLAB enables without being slowed down by a traditional software development methodology.</p>
+            <p>We can select those practices which are most appropriate for the business needs and experience of your team. A few examples are described below.</p>
+            <h4>Agile Development</h4>
+            <p>Quick turnaround requires you to take on board modern software development practices. The key takeaway here is that the only way to deliver a successful project in a short timescale with uncertain requirements is to iterate.</p>
+            <h4>Version Control</h4>
+            <p>This goes without saying and yet it is still common to come across MATLAB code-bases which number in the 10s of thousands of lines which are not under version control.</p>
+            <h4>Testing</h4>
+            <p>We all know we should it more. They key is to be smart about it. Avoiding testing at the start of a project is a great way to buld up <a href="http://www.martinfowler.com/bliki/TechnicalDebt.html">technical debt</a>. Better still - automate as much as you can.</p>
+            <h4>Continuous Integration</h4>
+            <p>Take labour intensive tasks such as testing and deployment out of the hands of your developers and let a machine do it for you.</p>
+            <h4>Documentation</h4>
+            <p>Can be as simple as commented code to creating your own documentation integrated with the MATLAB help browser.</p>
+          </div>
+        </div><!-- /row -->
+        
+        <div id="hpc" class="row">
+          <div class="span4">
+            <h2>Turbocharge Your Applications</h2>
+            <p>Do more, or do the same in less time - the choice is yours</p>            
+          </div>
+          <div class="span12">
+            <h3>Speed up MATLAB</h3>
+            <p>Coaxing MATLAB applications into running as fast as they should is at its heart a simple step-by-step process.</p>
+            <ul>
+              <li>First up, ask yourself does it need to be any faster? Sometimes good enough is good enough</li>
+              <li>Secondly, identify the bottlenecks. Never guess. Always measure!</li>
+              <li>Now, apply your years of experience to optimise the existing code</li>
+            </ul>
+            <p>Only then consider opting for the more exotic approaches such as:</p>
+            <ul>
+              <li>Take full advantage of your multicore machines</li>
+              <li>Distributed Computing</li>
+              <li>Graphics Processing Units (GPUs)</li>
+            </ul>            
+            <h3>Not just for Games</h3>
+            <p>Driven by the demands for increasingly realistic visuals the computational power of modern graphics cards continues to grow at a staggering pace. These massively parallel pieces of hardware represent a potentially cost-effective source of hardware for compute intensive tasks.</p>
+            <p>However, only certains type of problem are suitable for running on a GPU. And even those which are suitable can require a potentially prohibitive degree of developer effort and skill. A number of promising examples of middleware and tools are in development to make the process of developing for a GPU easier - this includes MATLAB with the Parallel Computing Toolbox.</p>
+            <p>I am available to help determine if a problem is appropriate and to help identify sensible technical approaches to developing a GPU solution. This includes developing low-level CUDA based solutions. Typically this would take the form of a proof-of-concept.</p>
+          </div>
+        </div><!-- /row -->       
+
+        <div id="app_development" class="row">
+          <div class="span4">
+            <h2>Develop End to End Software Solutions</h2>
+            <p>Whether it's a compelling graphical end-user application, or a number crunching algorithm</p>            
+          </div>
+          <div class="span12">
+            <h3>Develop Complete Applications</h3>
+            <p>Developing an applications should consist of so much more than delivering code.</p>      
+            <h3>Create Compelling Graphical User Interfaces</h3>
+            <p>Developing a graphical user interface should never be an after thought.</p>
+            <h3>Integrate MATLAB with External Code and Applications</h3>
+            <p>Call out to existing code and applications. Whether you are using Java, C++, C#, Python, Scala, F# or anything else there is a way to make MATLAB communicate.</p>
+            <p>Go the other direction. Incorporate MATLAB code into your existing applications and infrastructure. It could be a critical algorithm you want to deploy to production or a whizzy calculation that you want your traders to be able to use in Excel.</p>
+          </div>
+        </div><!-- /row -->   
+      </section>      
+      
+      <footer>
+        <p>&copy; John Walley 2012</p>
+      </footer>
+      
+      <!-- Le javascript -->
+      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+      <script src="../js/bootstrap-dropdown.js"></script>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>

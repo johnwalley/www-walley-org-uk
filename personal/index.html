@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Hi there!</title>
+    <meta name="description" content="">
+    <meta name="author" content="John Walley">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link rel="stylesheet/less" type="text/css" href="../less/bootstrap.less">
+    <script src="../js/less-1.2.1.min.js" type="text/javascript"></script>
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+      }
+      section {
+        padding-top: 60px;
+      }
+      section > .row {
+        margin-bottom: 10px;
+      }
+    </style>
+
+    <!-- Le fav and touch icons -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  </head>
+
+  <body>
+    
+    <div class="topbar-wrapper" style="z-index: 5;">
+      <div class="topbar" data-dropdown="dropdown" >
+        <div class="topbar-inner">
+          <div class="container">
+            <h3><a href="#">John Walley</a></h3>
+            <ul class="nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#video">Video</a></li>              
+              <li><a href="#photos">Photos</a></li>
+              <li><a href="#rowing">Rowing</a></li>              
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">Social</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Facebook</a></li>
+                  <li><a href="#">Twitter</a></li>
+                  <li><a href="#">Google+</a></li>
+                </ul>
+              </li>
+            </ul>
+            <ul class="nav secondary-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle">My Other Websites</a>
+                <ul class="dropdown-menu">
+                  <li><a href="../business/">Business</a></li>
+                  <li><a href="../code/">Code</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /topbar-inner -->
+      </div><!-- /topbar -->
+    </div><!-- /topbar-wrapper -->
+
+    <div class="container">
+
+      <!-- Main hero unit for a primary marketing message or call to action -->
+      <div class="hero-unit">
+        <h1>Hello, world!</h1>
+        <p>Life is for sharing.</p>
+        <p><a class="btn primary large">Learn more &raquo;</a></p>
+      </div>
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="span6">
+          <h2>Video</h2>
+          <ul class="media-grid">
+            <li>
+              <a href="#video">
+                <iframe src="http://player.vimeo.com/video/34435331?title=0&amp;byline=0&amp;portrait=0" width="331" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              </a>
+            </li>
+          </ul>
+          <p>I like to shoot and edit video.</p>
+          <p><a class="btn" href="#video">See more &raquo;</a></p>
+        </div>
+        <div class="span5">
+          <h2>Photos</h2>
+          <ul class="media-grid">
+            <li>
+              <a href="#photos">
+                <iframe src="http://player.vimeo.com/video/6167625?title=0&amp;byline=0&amp;portrait=0" width="270" height="182" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+              </a>
+            </li>
+          </ul>
+          <p>I also like the still version. But not quite as much.</p>
+          <p><a class="btn" href="#photos">See more &raquo;</a></p>
+       </div>
+        <div class="span5">
+          <h2>Stuff</h2>
+          <ul class="media-grid">
+            <li>
+              <a href="#stuff">
+                <img class="thumbnail" src="http://placehold.it/270x230" alt="">
+              </a>
+            </li>
+          </ul>          
+          <p>A few MATLAB examples.</p>
+          <p><a class="btn" href="#stuff">See more &raquo;</a></p>
+        </div>
+      </div> 
+
+      <!-- About John Walley
+      ================================================== -->
+      <section id="about">
+        <div class="page-header">
+          <h1>Who am I? <small>I'm Spartacus?</small></h1>
+        </div>
+        <div class="row">
+          <div class="span-one-third">
+            <h3>History</h3>
+            <p>Engineers at Twitter have historically used almost any library they were familiar with to meet front-end requirements. Bootstrap began as an answer to the challenges that presented. With the help of many awesome folks, Bootstrap has grown significantly.</p>
+            <p>Read more on <a href="https://dev.twitter.com/blog/bootstrap-twitter">dev.twitter.com &rsaquo;</a></p>
+            <p>
+              <a href="http://twitter.com/johnmwalley" class="twitter-follow-button">Follow @johnmwalley</a>
+              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </p>
+          </div>
+          <div class="span-one-third">
+            <h3>Browser support</h3>
+            <p>Bootstrap is tested and supported in major modern browsers like Chrome, Safari, Internet Explorer, and Firefox.</p>
+            <ul>
+              <li>Latest Safari</li>
+              <li>Latest Google Chrome</li>
+              <li>Firefox 4+</li>
+              <li>Internet Explorer 7+</li>
+              <li>Opera 11</li>
+            </ul>
+          </div>
+          <div class="span-one-third">
+            <h3>What's included</h3>
+            <p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
+            <ul>
+              <li><a href="./javascript.html">Javascript plugins</a></li>
+              <li>All original .less files</li>
+              <li>Fully <a href="1.4.0/bootstrap.css">compiled</a> and <a href="1.4.0/bootstrap.min.css">minified</a> CSS</li>
+              <li>Complete styleguide documentation</li>
+              <li>Three example pages with different layouts</li>
+            </ul>
+          </div>
+        </div><!-- /row -->
+
+        <div class="row">
+          <div class="span12">
+            <h3>Quick-start examples</h3>
+            <p>Need some quick templates? Check out these basic examples we've put together:</p>
+            <ul class="media-grid">
+              <li>
+                <a href="examples/hero.html"><img src="assets/img/example-diagram-01.png" alt="Simple three-column layout with hero unit"></a>
+              </li>
+              <li>
+                <a href="examples/fluid.html"><img src="assets/img/example-diagram-02.png" alt="Fluid layout with static sidebar"></a>
+              </li>
+              <li>
+                <a href="examples/container-app.html"><img src="assets/img/example-diagram-03.png" alt="Simple hanging container for apps"></a>
+              </li>
+            </ul>
+          </div>
+        </div><!-- /row -->
+      </section>
+      
+      <!-- Video
+      ================================================== -->
+      <section id="video">
+        <div class="page-header">
+          <h1>Video <small>killed the radio star</small></h1>
+        </div>
+        <!-- Table structure -->
+        <div class="row">
+          <div class="span4">
+            <h2>My favourites</h2>
+            <p>No particular rhyhme or reason. I just like them.</p>
+          </div>
+          <div class="span12">
+            <h3>Example thumbnails</h3>
+            <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
+            <h4>Rowing</h4>
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/34435331?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/33502049?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/34814062?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/32394666?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>
+            </ul>
+            <h4>Misc.</h4>
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/7780280?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <iframe src="http://player.vimeo.com/video/6167625?title=0&amp;byline=0&amp;portrait=0" width="330" height="186" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>    
+                </a>
+              </li>              
+            </ul>            
+            <h4>More videos</h4>
+            <p>Many more of my videos can be found at <a href="http://vimeo.com/johnwalley">Vimeo</a></p>
+          </div>
+        </div><!-- /row -->
+      </section>
+      
+      <!-- Photos
+      ================================================== -->
+      <section id="photos">
+        <div class="page-header">
+          <h1>Photos <small>Your first 10,000 photos are you worst</small></h1>
+        </div>
+        <!-- Table structure -->
+        <div class="row">
+          <div class="span4">
+            <h2>Media grid</h2>
+            <p>Display thumbnails of varying sizes on pages with a low HTML footprint and minimal styles.</p>
+          </div>
+          <div class="span12">
+            <h3>Example thumbnails</h3>
+            <p>Thumbnails.</p>
+            <h4>Large</h4>
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
+                </a>
+              </li>
+            </ul>
+            <h4>Coding them</h4>
+            <p>Media grids are easy to use and rather simple on the markup side. Their dimensions are purely based on the size of the images included.</p>
+          </div>
+        </div><!-- /row -->
+      </section>   
+
+      <!-- Rowing
+      ================================================== -->
+      <section id="rowing">
+        <div class="page-header">
+          <h1>Rowing <small>If it wasn’t hard, everyone would do it</small></h1>
+        </div>
+        <!-- Table structure -->
+        <div class="row">
+          <div class="span4">
+            <h2>Media grid</h2>
+            <p>Display thumbnails of varying sizes on pages with a low HTML footprint and minimal styles.</p>
+          </div>
+          <div class="span12">
+            <h3>Example thumbnails</h3>
+            <p>Thumbnails.</p>
+            <h4>Large</h4>
+            <ul class="media-grid">
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
+                </a>
+              </li>
+            </ul>
+            <h4>Coding them</h4>
+            <p>Media grids are easy to use and rather simple on the markup side. Their dimensions are purely based on the size of the images included.</p>
+          </div>
+        </div><!-- /row -->
+      </section>  
+      
+      <footer>
+        <p>&copy; John Walley 2012</p>
+      </footer>
+      
+      <!-- Le javascript -->
+      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+      <script src="../js/bootstrap-dropdown.js"></script>
+
+    </div> <!-- /container -->
+
+  </body>
+</html>
