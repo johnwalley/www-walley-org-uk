@@ -31,6 +31,20 @@
     <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    
+    <script type="text/javascript">
+
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-23419412-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+
+    </script>    
   </head>
 
   <body>
@@ -42,16 +56,15 @@
             <h3><a href="#">John Walley</a></h3>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
-              <li><a href="#about">About</a></li>
               <li><a href="#video">Video</a></li>              
               <li><a href="#photos">Photos</a></li>
               <li><a href="#rowing">Rowing</a></li>              
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle">Social</a>
                 <ul class="dropdown-menu">
-                  <li><a href="#">Facebook</a></li>
-                  <li><a href="#">Twitter</a></li>
-                  <li><a href="#">Google+</a></li>
+                  <li><a href="https://www.facebook.com/profile.php?id=519989065">Facebook</a></li>
+                  <li><a href="https://twitter.com/johnmwalley">Twitter</a></li>
+                  <li><a href="https://plus.google.com/112198112841494543011/">Google+</a></li>
                 </ul>
               </li>
             </ul>
@@ -101,81 +114,22 @@
               </a>
             </li>
           </ul>
-          <p>I also like the still version. But not quite as much.</p>
+          <p>I also like the still version of video.</p>
           <p><a class="btn" href="#photos">See more &raquo;</a></p>
        </div>
         <div class="span5">
-          <h2>Stuff</h2>
+          <h2>Rowing</h2>
           <ul class="media-grid">
             <li>
-              <a href="#stuff">
-                <img class="thumbnail" src="http://placehold.it/270x230" alt="">
+              <a href="#rowing">
+                <img class="thumbnail" src="images/rowing.jpg" alt="">
               </a>
             </li>
           </ul>          
-          <p>A few MATLAB examples.</p>
-          <p><a class="btn" href="#stuff">See more &raquo;</a></p>
+          <p>I sometimes go out rowing.</p>
+          <p><a class="btn" href="#rowing">See more &raquo;</a></p>
         </div>
       </div> 
-
-      <!-- About John Walley
-      ================================================== -->
-      <section id="about">
-        <div class="page-header">
-          <h1>Who am I? <small>I'm Spartacus?</small></h1>
-        </div>
-        <div class="row">
-          <div class="span-one-third">
-            <h3>History</h3>
-            <p>Engineers at Twitter have historically used almost any library they were familiar with to meet front-end requirements. Bootstrap began as an answer to the challenges that presented. With the help of many awesome folks, Bootstrap has grown significantly.</p>
-            <p>Read more on <a href="https://dev.twitter.com/blog/bootstrap-twitter">dev.twitter.com &rsaquo;</a></p>
-            <p>
-              <a href="http://twitter.com/johnmwalley" class="twitter-follow-button">Follow @johnmwalley</a>
-              <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-            </p>
-          </div>
-          <div class="span-one-third">
-            <h3>Browser support</h3>
-            <p>Bootstrap is tested and supported in major modern browsers like Chrome, Safari, Internet Explorer, and Firefox.</p>
-            <ul>
-              <li>Latest Safari</li>
-              <li>Latest Google Chrome</li>
-              <li>Firefox 4+</li>
-              <li>Internet Explorer 7+</li>
-              <li>Opera 11</li>
-            </ul>
-          </div>
-          <div class="span-one-third">
-            <h3>What's included</h3>
-            <p>Bootstrap comes complete with compiled CSS, uncompiled, and example templates.</p>
-            <ul>
-              <li><a href="./javascript.html">Javascript plugins</a></li>
-              <li>All original .less files</li>
-              <li>Fully <a href="1.4.0/bootstrap.css">compiled</a> and <a href="1.4.0/bootstrap.min.css">minified</a> CSS</li>
-              <li>Complete styleguide documentation</li>
-              <li>Three example pages with different layouts</li>
-            </ul>
-          </div>
-        </div><!-- /row -->
-
-        <div class="row">
-          <div class="span12">
-            <h3>Quick-start examples</h3>
-            <p>Need some quick templates? Check out these basic examples we've put together:</p>
-            <ul class="media-grid">
-              <li>
-                <a href="examples/hero.html"><img src="assets/img/example-diagram-01.png" alt="Simple three-column layout with hero unit"></a>
-              </li>
-              <li>
-                <a href="examples/fluid.html"><img src="assets/img/example-diagram-02.png" alt="Fluid layout with static sidebar"></a>
-              </li>
-              <li>
-                <a href="examples/container-app.html"><img src="assets/img/example-diagram-03.png" alt="Simple hanging container for apps"></a>
-              </li>
-            </ul>
-          </div>
-        </div><!-- /row -->
-      </section>
       
       <!-- Video
       ================================================== -->
@@ -186,12 +140,10 @@
         <!-- Table structure -->
         <div class="row">
           <div class="span4">
-            <h2>My favourites</h2>
+            <h2>My Favourites</h2>
             <p>No particular rhyhme or reason. I just like them.</p>
           </div>
           <div class="span12">
-            <h3>Example thumbnails</h3>
-            <p>Thumbnails in the <code>.media-grid</code> can be any size, but they work best when mapped directly to the built-in Bootstrap grid system. Image widths like 90, 210, and 330 combine with a few pixels of padding to equal the <code>.span2</code>, <code>.span4</code>, and <code>.span6</code> column sizes.</p>
             <h4>Rowing</h4>
             <ul class="media-grid">
               <li>
@@ -243,27 +195,10 @@
         <!-- Table structure -->
         <div class="row">
           <div class="span4">
-            <h2>Media grid</h2>
-            <p>Display thumbnails of varying sizes on pages with a low HTML footprint and minimal styles.</p>
+            <h2>My Favourites</h2>
           </div>
           <div class="span12">
-            <h3>Example thumbnails</h3>
-            <p>Thumbnails.</p>
-            <h4>Large</h4>
-            <ul class="media-grid">
-              <li>
-                <a href="#">
-                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
-                </a>
-              </li>
-            </ul>
-            <h4>Coding them</h4>
-            <p>Media grids are easy to use and rather simple on the markup side. Their dimensions are purely based on the size of the images included.</p>
+            <h3>TBA</h3>
           </div>
         </div><!-- /row -->
       </section>   
@@ -277,27 +212,10 @@
         <!-- Table structure -->
         <div class="row">
           <div class="span4">
-            <h2>Media grid</h2>
-            <p>Display thumbnails of varying sizes on pages with a low HTML footprint and minimal styles.</p>
+            <h2>Some Links</h2>
           </div>
           <div class="span12">
-            <h3>Example thumbnails</h3>
-            <p>Thumbnails.</p>
-            <h4>Large</h4>
-            <ul class="media-grid">
-              <li>
-                <a href="#">
-                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img class="thumbnail" src="http://placehold.it/330x230" alt="">
-                </a>
-              </li>
-            </ul>
-            <h4>Coding them</h4>
-            <p>Media grids are easy to use and rather simple on the markup side. Their dimensions are purely based on the size of the images included.</p>
+            <h3>TBA</h3>
           </div>
         </div><!-- /row -->
       </section>  
