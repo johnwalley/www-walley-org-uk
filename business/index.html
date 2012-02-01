@@ -24,6 +24,10 @@
       section > .row {
         margin-bottom: 10px;
       }
+      .hero-unit {
+        background-image: url(images/header.png);
+        background-repeat: no-repeat;
+      }      
     </style>
 
     <!-- Le fav and touch icons -->
@@ -53,7 +57,7 @@
       <div class="topbar" data-dropdown="dropdown" >
         <div class="topbar-inner">
           <div class="container">
-            <h3><a href="#">John Walley</a></h3>
+            <h3><a href="../">John Walley</a></h3>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li><a href="#bio">Bio</a></li>
@@ -90,7 +94,7 @@
         <h1>Ideas</h1>
         <p>Into</p>
         <h1>Solutions</h1>
-        <p><a class="btn primary large">Learn more &raquo;</a></p>
+        <p><a class="btn primary large" href="#services">Learn more &raquo;</a></p>
       </div>
 
       <!-- Example row of columns -->
@@ -109,7 +113,7 @@
        </div>
         <div class="span5">
           <h2>Work Together</h2>  
-          <p>Make MATLAB work as reliable part of your IT and software ecosystem.</p>
+          <p>Make MATLAB work as a reliable part of your IT and software ecosystem.</p>
           <p>From Excel Add-Ins to re-usable Java/.NET components, make your numerics fit into your existing infrastructure.</p>
           <p><a class="btn" href="#app_development">Learn more &raquo;</a></p>
         </div>
@@ -204,7 +208,16 @@
         <div class="row">
           <div class="span8">
             <h2>Software Development</h2>
-            <p>Broad experience with a variety of programming languages and environments.</p>            
+            <p>Broad experience with a variety of programming languages and environments. Including (but not limited to):</p>  
+            <ul>
+              <li>C#</li>
+              <li>Python</li>
+              <li>Java</li>
+              <li>C++</li>
+              <li>JavaScript</li>
+              <li>CUDA</li>
+              <li>F#</li>
+            </ul>            
           </div>
           <div class="span4">
           </div>
@@ -221,7 +234,7 @@
               <li>Numerical linear algebra</li>
             </ul>
             <p>My dissertation explored the numerical solution of magnetic fluid flow and made heavy use of MATLAB and Fortran.</p>
-            <p>As an undergraduate I studied Mathematics at Cambridge University. There I was able to indulge my passion for applied maths and theoretical physics.</p>       
+            <p>As an undergraduate I studied Mathematics at Cambridge University where focused on applied maths and theoretical physics.</p>       
           </div>
           <div class="span4">
             <ul class="media-grid">
@@ -237,7 +250,7 @@
         <div class="row">
           <div class="span8">
             <h2>Finance Industry Experience</h2>
-            <p>I have worked for a large asset management firm. I was responsible for taking quant research into production.</p>
+            <p>I have worked for a large asset management firm where I was responsible for taking quant research into production.</p>
             <p>Prior to this I worked at MathWorks in a customer-facing engineering role. Working with a wide variety of customers. These included investment banks, hedge funds, and other financial services businesses.</p>  
           </div>
           <div class="span4">
@@ -293,7 +306,7 @@
           </div>
           <div class="span12">
             <h3>Speed up MATLAB</h3>
-            <p>Coaxing MATLAB applications into running as fast as they should is at its heart a simple step-by-step process.</p>
+            <p>Coaxing MATLAB applications into running as fast as they should is at its heart a simple step-by-step process:</p>
             <ul>
               <li>First up, ask yourself does it need to be any faster? Sometimes good enough is good enough</li>
               <li>Secondly, identify the bottlenecks. Never guess. Always measure!</li>
@@ -329,15 +342,18 @@
         </div><!-- /row -->   
       </section>      
       
-      <footer>
-        <p>&copy; John Walley 2012</p>
-      </footer>
-      
-      <!-- Le javascript -->
-      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-      <script src="../js/bootstrap-dropdown.js"></script>
+      <footer class="footer">
+        <div class="container">
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>&copy; John Walley 2012</p>
+        </div>
+      </footer>      
 
-    </div> <!-- /container -->
+    </div> <!-- /container -->          
+    
+    <!-- Le javascript -->
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
 
   </body>
 </html>

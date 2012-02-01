@@ -24,6 +24,16 @@
       section > .row {
         margin-bottom: 10px;
       }
+      .hero-unit {
+        background-image: url(images/header.jpg);
+        background-repeat: no-repeat;
+      }
+      .hero-unit h1 {
+        color: #FFFFFF;
+      }
+      .hero-unit p {
+        color: #FFFFFF;
+      }        
     </style>
 
     <!-- Le fav and touch icons -->
@@ -53,7 +63,7 @@
       <div class="topbar" data-dropdown="dropdown" >
         <div class="topbar-inner">
           <div class="container">
-            <h3><a href="#">John Walley</a></h3>
+            <h3><a href="../">John Walley</a></h3>
             <ul class="nav">
               <li class="active"><a href="#">Home</a></li>
               <li class="dropdown">
@@ -85,7 +95,7 @@
       <div class="hero-unit">
         <h1>Hello, world!</h1>
         <p>Code is for sharing.</p>
-        <p><a class="btn primary large">Learn more &raquo;</a></p>
+        <p><a class="btn primary large" href="#projects">Learn more &raquo;</a></p>
       </div>
 
       <!-- Example row of columns -->
@@ -164,8 +174,13 @@
             <h3>Tech</h3>
             <h4>WebGL</h4>
             <p>WebGL is a new web technology that brings hardware-accelerated 3D graphics to the browser without installing additional software.</p>
+            <p>The majority of the client-side UI uses WebGL. Mostly throught the excellent <a href="https://github.com/mrdoob/three.js/">three.js</a> library.</p>
             <h4>node.js</h4>
-            <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p>            
+            <p>Node.js is a platform built on Chrome's JavaScript runtime for easily building fast, scalable network applications. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient, perfect for data-intensive real-time applications that run across distributed devices.</p> 
+            <p>The server-side component is written in JavaScript running under node.js.</p>
+            <h4>Amazon EC2</h4>
+            <p>Amazon Elastic Compute Cloud (Amazon EC2) is a web service that provides resizable compute capacity in the cloud. It is designed to make web-scale computing easier for developers.</p>
+            <p>The back-end is hosted on an Amazon EC2 micro instance.</p>         
           </div>
         </div><!-- /row -->
         
@@ -241,18 +256,18 @@
         </div><!-- /row -->             
       </section>      
       
+      <footer class="footer">
+        <div class="container">
+          <p class="pull-right"><a href="#">Back to top</a></p>
+          <p>&copy; John Walley 2012</p>
+        </div>
+      </footer>    
       
+    </div> <!-- /container -->      
       
-      
-      <footer>
-        <p>&copy; John Walley 2012</p>
-      </footer>
-      
-      <!-- Le javascript -->
-      <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
-      <script src="../js/bootstrap-dropdown.js"></script>
-
-    </div> <!-- /container -->
+    <!-- Le javascript -->
+    <script src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+    <script src="../js/bootstrap-dropdown.js"></script>
 
   </body>
 </html>
